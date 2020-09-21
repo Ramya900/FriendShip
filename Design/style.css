@@ -1,0 +1,102 @@
+* {
+    margin: 0pX;
+    padding: 0PX;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 40px;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-bottom: 40px;
+   font-family: 'Poppins', sans-serif;
+   background-image: url(./img1.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 50%;
+   background-position: 90% 90%;
+}
+
+.navbar {
+    border: none;
+    background-color: white;
+}
+
+.navbar-nav li {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-brand a {
+    font-size: 22px;
+    color: black;
+}
+
+.headding {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+}
+
+.headding p {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(48, 10, 10);
+}
+
+.para {
+    padding-bottom: 40px;
+}
+
+.para p {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(48, 10, 10);
+}
+
+.btn {
+    font-size: 16px;
+    color: cornsilk;
+    background-color: rgb(20, 145, 161);
+    border: solid 2px  rgb(20, 145, 161);
+    border-radius: 4rem;
+    padding: 2rem 4rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.btn:hover span {
+    padding-right: 25px;
+}
+
+.btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
